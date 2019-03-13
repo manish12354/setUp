@@ -96,6 +96,13 @@ echo "Installing virtualbox and vagrant"
 brew cask install virtualbox
 brew cask install vagrant
 
+echo "Installing postgres"
+brew install postgresql
+
+echo "Installing Mysql"
+brew install mysql
+
+
 #Cleanup
 brew cleanup
 brew cask cleanup
