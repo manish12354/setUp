@@ -23,7 +23,10 @@ if test ! $(which brew); then
 fi
 
 echo "Installing java";
-brew cask install java
+brew cask install java8
+
+echo "Installing gradle"
+brew install gradle
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -101,6 +104,8 @@ brew install postgresql
 
 echo "Installing Mysql"
 brew install mysql
+
+
 
 
 #Cleanup
