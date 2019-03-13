@@ -2,4 +2,4 @@
 
 ## Usage
 ### Run command
-``curl https://raw.githubusercontent.com/manish12354/mac-setup/master/install.sh | sh``
+``curl https://raw.githubusercontent.com/manishy/setUp/master/install.sh | sh``
